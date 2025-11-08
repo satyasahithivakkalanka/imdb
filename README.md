@@ -71,17 +71,18 @@ The console warns that the DataFrame is highly fragmented due to repeated column
 ---
 
 ##  Requirements
-
 Install the dependencies:
 
-⁠ bash
+```bash
 pip install pandas numpy scikit-learn xgboost joblib
- ⁠
+```
 
 Optional (for hyperparameter tuning):
 
-⁠ bash
+```bash
 pip install scipy
+```
+
  ⁠
  
 ---
@@ -90,13 +91,15 @@ pip install scipy
 
 Run in terminal:
 
-⁠ bash
+```bash
 python imdb.py
+```
  ⁠
 
 *Output:*
 
 
+```
 Loading dataset
 Creating log based features
 Creating ratio and interaction features
@@ -108,6 +111,7 @@ Running randomized search for XGB
 Training complete
 Best R2 on test 0.6173
 Saving metrics model and predictions into artifacts folder
+```
 
 ---
 
